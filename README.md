@@ -4,16 +4,16 @@ It's a project for customers to display their digital portofolio.
 You can also update, delete or add new projects. It's also mobile friendly as I've used Bootstrap 5 classes.
 
 # Viewing exiting projects
-![View](https://ibb.co/cyt9ydk)
+https://ibb.co/cyt9ydk
 
 # Creating a project
-![Create](https://ibb.co/RT70HPS)
+https://ibb.co/RT70HPS
 
 # Deleting a project
-![Delete](https://ibb.co/7vWC1rj)
+https://ibb.co/7vWC1rj
 
 # Updating a project
-![Update](https://ibb.co/871k4VM)
+https://ibb.co/871k4VM
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 
