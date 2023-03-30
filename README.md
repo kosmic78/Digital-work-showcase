@@ -1,6 +1,6 @@
 # Digitalshowcase
 
-It's a project for customers to display their digital portofolio. 
+It's a project I did in Angular 13 with TypeScript for customers to display their digital portofolio. 
 You can also update, delete or add new projects. It's also mobile friendly as I've used Bootstrap 5 classes.
 
 # Viewing exiting projects
