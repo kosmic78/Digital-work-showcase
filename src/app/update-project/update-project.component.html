@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Showcase</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="projects">Home</a>
+        <a class="nav-item nav-link" href="createproject">Create project</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid bg-dark">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 py-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <h1 class="text-center text-white mb-4">Update project</h1>
+              <form (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                  <label for="title" class="text-white">Title</label>
+                  <input type="text" id="title" [(ngModel)]="project.title" name="title" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="description" class="text-white">Description</label>
+                  <textarea id="description" [(ngModel)]="project.description" name="description" class="form-control" required></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="thumbnail" class="text-white">Thumbnail link</label>
+                  <input type="text" id="thumbnail" [(ngModel)]="project.thumbnail" name="thumbnail" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="website" class="text-white">Website</label>
+                  <input type="text" id="website" [(ngModel)]="project.website" name="website" class="form-control" required>
+                </div>
+                <div class="text-center">
+                  <br>
+                  <button class="btn btn-secondary" type="submit">Update</button>
+                  <button class="btn btn-danger" (click)="cancel()" type="submit">Cancel</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

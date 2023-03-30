@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Chat app",
+      "description": "Our chatting app provides a simple and convenient way for people to communicate with each other in real-time. Whether you're looking to chat with friends, family, or colleagues, our app has got you covered. With easy-to-use features and a clean interface, you can start chatting with others in no time. The app allows you to create groups and invite others to join, making it perfect for socializing or collaborating on projects. You can also send and receive text messages, voice messages, and media files such as photos and videos. In addition, our app includes features such as read receipts, typing indicators, and online status indicators, making it easy to stay connected with others.\nOverall, our chatting app is a great tool for anyone looking to communicate and collaborate with others. Try it out today and see how it can enhance your conversations and connections!",
+      "thumbnail": "https://randomuser.me/api/portraits/med/men/60.jpg",
+      "website": "https://www.whatsapp.com/",
+      "id": 1
+    },
+    {
+      "title": "Socialising app",
+      "thumbnail": "https://randomuser.me/api/portraits/med/men/50.jpg",
+      "website": "https://facebook.com/",
+      "description": "Introducing our new socializing app, designed to bring people together in a fun and engaging way! With our app, you can connect with new people from around the world who share your interests, hobbies, and passions. Whether you're looking for new friends, networking opportunities, or simply someone to chat with, our app is the perfect platform to make meaningful connections. You can join or create groups based on your interests, participate in events, and even meet up with other members in person. Join our socializing app today and start building new friendships and connections with people from all over the world!",
+      "id": 2
+    }
+  ]
+}
