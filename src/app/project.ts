@@ -4,4 +4,5 @@ export class Project {
     description!:String;
     thumbnail!:String;
     website!:String;
+    hidden!:boolean
 }

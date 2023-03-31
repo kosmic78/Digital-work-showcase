@@ -11,7 +11,7 @@ import { ProjectService } from '../project.service';
 export class ProjectComponent implements OnInit {
   projects:Project[] = [];
   constructor(private service:ProjectService, private router:Router) { }
-
+//
   ngOnInit(): void {
     this.service.getResults().subscribe(data=>{
       this.projects=data;
@@ -27,4 +27,12 @@ export class ProjectComponent implements OnInit {
     this.router.navigate(['updateproject',project_id])
     console.log(project_id)
   }
+  hideProject(project: Project) {
+    project.hidden = true;
+  }
+
+  unhideProject(project: Project) {
+    project.hidden = false;
+  }
+  
 }

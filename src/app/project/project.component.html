@@ -21,7 +21,7 @@
           </div>
           <div *ngFor="let project of projects">
             <div class="col-md-4">
-              <div class="project-card text-center">
+              <div class="project-card text-center" [hidden]="project.hidden">
                 <img [src]="project.thumbnail">
                 <div class="project-details">
                   <h2 class="project-title">{{ project.title }}</h2>
@@ -31,10 +31,14 @@
                 <br>
                 <button class="btn btn-danger" (click)="deleteProject(project.id)" pButton type="button" label="Cancel">Delete</button>
                 <button class="btn btn-secondary" (click)="updateProject(project.id)" pButton type="button" label="Update">Update</button>
+                <button class="btn btn-success" (click)="hideProject(project)">Hide</button>
+              </div>
+              <div class="project-card text-center" [hidden]="!project.hidden">
+                <button class="btn btn-success" (click)="unhideProject(project)">Unhide</button>
               </div>
             </div>
             <br>
-          </div>
+          </div>          
         </div>
       </div>
     </div>
