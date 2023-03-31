@@ -2,6 +2,8 @@
 
 It's a project I did in Angular 13 with TypeScript for customers to display their digital portofolio. 
 You can also update, delete or add new projects. It's also mobile friendly as I've used Bootstrap 5 classes.
+Other than that you can hide / unhide certain elements clicking on a button.
+The app runs with json server. In the database folder run cmd and type json-server --watch db.json for starting the backend 
 
 # Viewing exiting projects
 https://ibb.co/cyt9ydk
@@ -14,6 +16,7 @@ https://ibb.co/7vWC1rj
 
 # Updating a project
 https://ibb.co/871k4VM
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 
