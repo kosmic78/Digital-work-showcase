@@ -6,13 +6,16 @@ Other than that you can hide / unhide certain elements clicking on a button.
 The app runs with json server. In the database folder run cmd and type json-server --watch db.json for starting the backend 
 
 # Viewing exiting projects
-![Add](https://i.imgur.com/ufGQUhw.png)
+(https://i.imgur.com/ufGQUhw.png)
+
+# Hide / unhide a project
+(https://i.imgur.com/a/HkSRKnm.png)
 
 # Creating a project
-https://ibb.co/RT70HPS
+(https://i.imgur.com/a/y2SmRjT.png)
 
 # Deleting a project
-https://ibb.co/7vWC1rj
+(https://i.imgur.com/a/1WXXuPU.png)
 
 # Updating a project
 https://ibb.co/871k4VM
